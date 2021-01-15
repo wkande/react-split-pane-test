@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+div.NavCompanyName{
+  font-size:x-large;
+}
+
+/* https://stackoverflow.com/questions/2836827/how-do-you-add-a-scroll-bar-to-a-div */
+.navPane{
+  border: 1px solid #DDDDDD;
+
+  color: gray; /*#3B3C3E;*/
+  font-size: small;
+  font-weight: 700;
+  left: -1px;
+  padding: 0px 0px 0px 8px;
+  height:100%;
+}
+
+
+
+
+div.paneScoller{
+  height:100%;
+  scroll-behavior: smooth;
+  overflow:scroll;
+  overflow-x:hidden;
+
+}
+
+
+
+
